@@ -24,7 +24,9 @@ class BottomContent extends StatelessWidget {
               padding: EdgeInsets.symmetric(vertical: 16.0),
               width: MediaQuery.of(context).size.width,
               child: RaisedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pop(context);
+                },
                 color: Color.fromRGBO(58, 66, 86, 1.0),
                 child: Text(
                   "FIND ANOTHER",
